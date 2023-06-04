@@ -13,9 +13,10 @@
   font-weight: 400;
 
   --text-color: rgba(0, 0, 0, 0.87);
-  --background-color: #fff;
+  --text-secondary-color: rgba(0, 0, 0, 0.44);
+  --background-color: #dbdbdb;
+  --background-secondary-color: #dbdbdb;
   --primary-color: #0d6efd;
-  --secondary-color: #dbdbdb;
 
   color: var(--text-color);
   background-color: var(--background-color);
