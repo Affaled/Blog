@@ -1,0 +1,12 @@
+.navbar {
+  display: flex;
+  gap: 1.5rem;
+
+  color: var(--text-secondary-color);
+}
+
+@media (max-width: 542px) {
+  .navbar {
+    display: none;
+  }
+}
