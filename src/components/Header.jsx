@@ -1,7 +1,8 @@
 import React from "react";
 import instagram from "../assets/icons/instagram.svg";
+import facebook from "../assets/icons/facebook.svg";
+import twitter from "../assets/icons/twitter.svg";
 import github from "../assets/icons/github.svg";
-import portfolio from "../assets/icons/portfolio.svg";
 import "../assets/styles/Header.css";
 
 export default function Header() {
@@ -17,14 +18,17 @@ export default function Header() {
           />
         </a>
         <a href="#">
-          <img src={github} alt="Github link icon" className="social-icon" />
-        </a>
-        <a href="#">
           <img
-            src={portfolio}
-            alt="Portfolio link icon"
+            src={facebook}
+            alt="Facebook link icon"
             className="social-icon"
           />
+        </a>
+        <a href="#">
+          <img src={twitter} alt="Twitter link icon" className="social-icon" />
+        </a>
+        <a href="#">
+          <img src={github} alt="Github link icon" className="social-icon" />
         </a>
       </div>
     </header>
