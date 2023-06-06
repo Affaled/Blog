@@ -15,7 +15,7 @@
   --text-color: rgba(0, 0, 0, 0.87);
   --text-secondary-color: rgba(0, 0, 0, 0.44);
   --background-color: #dbdbdb;
-  --background-secondary-color: #dbdbdb;
+  --background-secondary-color: #fff;
   --primary-color: #0d6efd;
 
   color: var(--text-color);
