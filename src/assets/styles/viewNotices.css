@@ -17,7 +17,7 @@
   margin: 0 auto 0.3rem auto;
   padding: 0.2rem 0.2rem;
   border-radius: 0.8rem;
-  background-color: black;
+  background-color: #444444;
   color: white;
 }
 
@@ -40,4 +40,15 @@
 .description {
   font-size: 0.9rem;
   text-align: justify;
+}
+
+.readMore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto 0 auto;
+  padding: 0.2rem 0.2rem;
+  border-radius: 0.2rem;
+  background-color: #444444;
+  color: white;
 }

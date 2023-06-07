@@ -14,6 +14,9 @@ export default function ViewNotices(props) {
       <p className="date">{date}</p>
       <img src={image} alt="Image" />
       <p className="description">{description}</p>
+      <a href="#" alt="Read more button" className="readMore">
+        Read More
+      </a>
     </div>
   );
 }
