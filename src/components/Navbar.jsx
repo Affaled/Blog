@@ -6,6 +6,7 @@ export default function Navbar() {
     <nav className="navbar">
       <a href="#">ABOUT</a>
       <a href="#">HOME</a>
+      <a href="#">JOURNAL</a>
       <a href="#">GALERY</a>
       <a href="#">PORTFOLIO</a>
       <a href="#">CATEGORIES</a>
