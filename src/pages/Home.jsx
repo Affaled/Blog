@@ -1,6 +1,7 @@
 import React from "react";
 import { notices } from "../data/dataNotices";
 import ViewNotices from "../components/ViewNotices";
+import AboutMe from "../components/AboutMe";
 import "../assets/styles/Home.css";
 
 export default function Home() {
@@ -21,7 +22,7 @@ export default function Home() {
         </div>
       </div>
       <div className="column">
-        <p>Coluna 2</p>
+        <AboutMe />
       </div>
     </div>
   );
