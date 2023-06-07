@@ -1,4 +1,4 @@
-import "../assets/styles/viewNotices.css";
+import "../assets/styles/ViewNotices.css";
 
 export default function ViewNotices(props) {
   const category = props.category;

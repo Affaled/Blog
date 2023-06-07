@@ -1,6 +1,6 @@
 import React from "react";
 import { notices } from "../data/dataNotices";
-import ViewNotices from "../components/viewNotices";
+import ViewNotices from "../components/ViewNotices";
 import "../assets/styles/Home.css";
 
 export default function Home() {
