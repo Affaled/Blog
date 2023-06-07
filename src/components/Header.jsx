@@ -8,7 +8,7 @@ import "../assets/styles/Header.css";
 export default function Header() {
   return (
     <header>
-      <p className="title">Lucar Affaled</p>
+      <p id="title">Lucar Affaled</p>
       <div className="social-links">
         <a href="#">
           <img
