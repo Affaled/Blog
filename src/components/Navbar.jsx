@@ -7,7 +7,7 @@ export default function Navbar() {
       <a href="#">ABOUT</a>
       <a href="#">HOME</a>
       <a href="#">JOURNAL</a>
-      <a href="#">GALERY</a>
+      <a href="#">GALLERY</a>
       <a href="#">PORTFOLIO</a>
       <a href="#">CATEGORIES</a>
       <a href="#">SHOP</a>
