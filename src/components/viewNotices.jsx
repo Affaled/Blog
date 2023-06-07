@@ -1,0 +1,19 @@
+import "../assets/styles/viewNotices.css";
+
+export default function ViewNotices(props) {
+  const category = props.category;
+  const title = props.title;
+  const date = props.date;
+  const image = props.image;
+  const description = props.description;
+
+  return (
+    <div className="notice">
+      <p className="category">{category}</p>
+      <p className="title">{title}</p>
+      <p className="date">{date}</p>
+      <img src={image} alt="Image" />
+      <p className="description">{description}</p>
+    </div>
+  );
+}
