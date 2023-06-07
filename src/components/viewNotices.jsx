@@ -10,7 +10,7 @@ export default function ViewNotices(props) {
   return (
     <div className="notice">
       <p className="category">{category}</p>
-      <p className="title">{title}</p>
+      <h1 className="title">{title}</h1>
       <p className="date">{date}</p>
       <img src={image} alt="Image" />
       <p className="description">{description}</p>
