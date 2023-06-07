@@ -1,5 +1,6 @@
 .navbar {
   display: flex;
+  justify-content: center;
   gap: 1.5rem;
 
   color: var(--text-secondary-color);
