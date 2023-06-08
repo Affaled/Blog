@@ -1,6 +1,6 @@
 import React from "react";
-import { notices } from "../data/dataNotices";
-import ViewNotices from "../components/ViewNotices";
+import { notices } from "../data/data-Notices";
+import Notices from "../components/Notices";
 import AboutMe from "../components/AboutMe";
 import "../assets/styles/Home.css";
 
@@ -10,7 +10,7 @@ export default function Home() {
       <div className="column">
         <div className="noticeGroup">
           {notices.map((notice, index) => (
-            <ViewNotices
+            <Notices
               key={index}
               category={notice.category}
               title={notice.title}

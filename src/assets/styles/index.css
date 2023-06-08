@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
@@ -8,11 +8,11 @@
 }
 
 :root {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Merriweather", serif;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 300;
 
-  --text-color: rgba(0, 0, 0, 0.87);
+  --text-color: rgba(0, 0, 0, 0.67);
   --text-secondary-color: rgba(0, 0, 0, 0.44);
   --background-color: #dbdbdb;
   --background-secondary-color: #fff;

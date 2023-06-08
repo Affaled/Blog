@@ -1,8 +1,6 @@
 import React from "react";
-import instagram from "../assets/icons/instagram.svg";
-import facebook from "../assets/icons/facebook.svg";
-import twitter from "../assets/icons/twitter.svg";
-import github from "../assets/icons/github.svg";
+import { socialicons } from "../data/data-SocialIcons";
+import SocialIcon from "../components/SocialIcon";
 import "../assets/styles/Header.css";
 
 export default function Header() {
@@ -10,26 +8,9 @@ export default function Header() {
     <header>
       <p id="title">Lucar Affaled</p>
       <div className="social-links">
-        <a href="#">
-          <img
-            src={instagram}
-            alt="instagram link icon"
-            className="social-icon"
-          />
-        </a>
-        <a href="#">
-          <img
-            src={facebook}
-            alt="Facebook link icon"
-            className="social-icon"
-          />
-        </a>
-        <a href="#">
-          <img src={twitter} alt="Twitter link icon" className="social-icon" />
-        </a>
-        <a href="#">
-          <img src={github} alt="Github link icon" className="social-icon" />
-        </a>
+        {socialicons.map((icon, index) => (
+          <SocialIcon key={index} icon={icon.icon} alt={icon.alt} />
+        ))}
       </div>
     </header>
   );
