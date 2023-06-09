@@ -4,10 +4,15 @@
   box-sizing: border-box;
 }
 
-#root {
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
   font-family: var(--primary-font);
   font-size: var(--text-base-font-size);
-  font-weight: 400;
+  font-weight: 300;
   line-height: var(--line-height);
   color: var(--text-color);
 
