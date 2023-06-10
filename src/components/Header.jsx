@@ -5,8 +5,8 @@ import "../assets/styles/Header.css";
 export default function Header() {
   return (
     <header className="header">
-      <div className="header_title">
-        <h1>Lucar Affaled</h1>
+      <div>
+        <h1 className="header_title">Lucar Affaled</h1>
         <Navbar />
       </div>
     </header>
