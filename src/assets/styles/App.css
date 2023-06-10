@@ -10,11 +10,14 @@ a {
 }
 
 body {
+  display: flex;
+  justify-content: center;
+
   font-family: var(--primary-font);
   font-size: var(--text-base-font-size);
   font-weight: 300;
   line-height: var(--line-height);
-  color: var(--text-color);
+  color: var(--primary-text-color);
 
   background-color: var(--background-color);
 }
