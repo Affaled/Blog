@@ -10,7 +10,6 @@ a {
 }
 
 body {
-  display: flex;
   justify-content: center;
 
   font-family: var(--primary-font);
