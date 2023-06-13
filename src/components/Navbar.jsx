@@ -3,7 +3,7 @@ import "../assets/styles/Navbar.css";
 
 export default function Navbar() {
   return (
-    <nav className="navbar">
+    <nav className="navbar_container">
       <ul className="navbar_link_list">
         <li>
           <a href="#">HOME</a>
