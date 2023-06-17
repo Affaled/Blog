@@ -8,15 +8,3 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
-body {
-  justify-content: center;
-
-  font-family: var(--primary-font);
-  font-size: var(--text-base-font-size);
-  font-weight: 300;
-  line-height: var(--line-height);
-  color: var(--primary-text-color);
-
-  background-color: var(--background-color);
-}
