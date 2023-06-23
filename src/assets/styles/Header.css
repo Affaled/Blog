@@ -1,20 +1,27 @@
 .header_container {
   display: flex;
+  position: fixed;
   flex: 1 1 auto;
 
   justify-content: space-between;
   align-items: center;
 
-  padding: 0.5rem 10rem 0;
+  padding: 0.5rem 10rem;
 
+  min-height: 80px;
   max-height: 80px;
   min-width: 100vw;
 
   border-bottom: 1px solid var(--border-color);
+
+  backdrop-filter: blur(3px);
+
+  z-index: 10;
 }
 
 .header_container h1 {
-  font-size: var(--subtitle-font-size);
+  font-size: 26px;
+  font-weight: 600;
   font-family: var(--secondary-font);
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }

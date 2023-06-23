@@ -1,0 +1,9 @@
+.home_container {
+  display: flex;
+  flex: 1 1 100%;
+
+  justify-content: center;
+  align-items: start;
+
+  min-width: 100vw;
+}

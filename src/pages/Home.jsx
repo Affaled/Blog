@@ -5,5 +5,9 @@ import SideBar from "../components/SideBar";
 import "../assets/styles/Home.css";
 
 export default function Home() {
-  return <main className="home_container">Home</main>;
+  return (
+    <main className="home_container">
+      <StarPosts />
+    </main>
+  );
 }

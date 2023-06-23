@@ -6,16 +6,22 @@ export default function Navbar() {
     <nav className="navbar_container">
       <ul>
         <li>
-          <a href="#">Home</a>
+          <a href="#">HOME</a>
         </li>
         <li>
-          <a href="#">Journal</a>
+          <a href="#">JOURNAL</a>
         </li>
         <li>
-          <a href="#">Category</a>
+          <a href="#">CATEGORY</a>
         </li>
         <li>
-          <a href="#">Galery</a>
+          <a href="#">GALERY</a>
+        </li>
+        <li>
+          <a href="#">ABOUT</a>
+        </li>
+        <li>
+          <a href="#">CONTACT</a>
         </li>
       </ul>
     </nav>
