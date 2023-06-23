@@ -5,13 +5,5 @@ import SideBar from "../components/SideBar";
 import "../assets/styles/Home.css";
 
 export default function Home() {
-  return (
-    <div className="home_container">
-      <StarPosts />
-      <div className="list_container">
-        <ListPosts />
-        <SideBar />
-      </div>
-    </div>
-  );
+  return <main className="home_container">Home</main>;
 }
