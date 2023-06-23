@@ -5,9 +5,18 @@ export default function Navbar() {
   return (
     <nav className="navbar_container">
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Journal</a>
+        </li>
+        <li>
+          <a href="#">Category</a>
+        </li>
+        <li>
+          <a href="#">Galery</a>
+        </li>
       </ul>
     </nav>
   );
