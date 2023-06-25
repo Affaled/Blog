@@ -8,9 +8,9 @@
 
   padding: 0.5rem 10rem;
 
+  min-width: 100vw;
   min-height: 80px;
   max-height: 80px;
-  min-width: 100vw;
 
   border-bottom: 1px solid var(--border-color);
 
@@ -20,10 +20,9 @@
 }
 
 .header_container h1 {
+  font-family: var(--secondary-font);
   font-size: 1.8rem;
   font-weight: 600;
-  font-family: var(--secondary-font);
   letter-spacing: 2px;
-
   text-shadow: 1px 1px 1px black;
 }

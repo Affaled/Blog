@@ -2,10 +2,10 @@
   display: flex;
   flex: 1 1 auto;
 
+  position: absolute;
+
   justify-content: start;
   align-items: center;
-
-  position: absolute;
 
   margin-bottom: 3rem;
 
@@ -24,8 +24,9 @@
   display: flex;
   flex: 1 1 auto;
 
-  border-right: 1px solid var(--border-color);
   padding-left: 1rem;
+
+  border-right: 1px solid var(--border-color);
 
   font-size: 1.3rem;
   text-shadow: 1px 1px 1px black;
