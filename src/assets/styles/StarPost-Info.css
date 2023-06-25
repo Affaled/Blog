@@ -1,0 +1,36 @@
+.info_container {
+  display: flex;
+  flex: 1 1 auto;
+
+  justify-content: start;
+  align-items: center;
+
+  position: absolute;
+
+  margin-bottom: 3rem;
+
+  min-width: 60vw;
+  max-width: 60vw;
+  height: 3.2rem;
+
+  border-radius: 1.2rem;
+
+  background-color: rgba(0, 0, 0, 0.5);
+
+  z-index: 2;
+}
+
+.info_container a {
+  display: flex;
+  flex: 1 1 auto;
+
+  border-right: 1px solid var(--border-color);
+  padding-left: 1rem;
+
+  font-size: 1.3rem;
+  text-shadow: 1px 1px 1px black;
+}
+
+.info_container a:last-child {
+  border-right: none;
+}
