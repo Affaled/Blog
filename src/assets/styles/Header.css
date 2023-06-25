@@ -1,7 +1,7 @@
 .header_container {
   display: flex;
-  position: fixed;
   flex: 1 1 auto;
+  position: fixed;
 
   justify-content: space-between;
   align-items: center;
@@ -20,8 +20,10 @@
 }
 
 .header_container h1 {
-  font-size: 26px;
+  font-size: 1.8rem;
   font-weight: 600;
   font-family: var(--secondary-font);
   letter-spacing: 2px;
+
+  text-shadow: 1px 1px 1px black;
 }
