@@ -12,6 +12,8 @@ export class NoticeComponent implements OnInit {
   noticeTitle: string = '';
   @Input()
   noticeContent: string = '';
+  @Input()
+  Id: number = 0;
 
   constructor() {}
   ngOnInit(): void {}

@@ -1,5 +1,7 @@
-<div class="notice">
-  <img src="{{ noticePhoto }}" alt="notice image" />
-  <h2>{{ noticeTitle }}</h2>
-  <p>{{ noticeContent }}</p>
-</div>
+<a [routerLink]="['content', Id]" routerLinkActive="router-link-active">
+  <div class="notice">
+    <img src="{{ noticePhoto }}" alt="notice image" />
+    <h2>{{ noticeTitle }}</h2>
+    <p>{{ noticeContent }}</p>
+  </div>
+</a>

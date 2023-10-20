@@ -1,11 +1,13 @@
-<div class="notice">
+<a [routerLink]="['content', Id]" routerLinkActive="router-link-active">
   <div class="notice">
-    <img src="{{ noticePhoto }}" alt="notice image" />
-    <div class="notice__text">
-      <h2>{{ noticeTitle }}</h2>
-      <p>
-        {{ noticeContent }}
-      </p>
+    <div class="notice">
+      <img src="{{ noticePhoto }}" alt="notice image" />
+      <div class="notice__text">
+        <h2>{{ noticeTitle }}</h2>
+        <p>
+          {{ noticeContent }}
+        </p>
+      </div>
     </div>
   </div>
-</div>
+</a>
