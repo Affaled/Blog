@@ -16,7 +16,7 @@
     @include flex(row, center, center);
     gap: 2.5rem;
 
-    & > img {
+    & > a > img {
       cursor: pointer;
       width: 1.75rem;
     }
