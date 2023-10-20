@@ -7,4 +7,11 @@
   width: 100%;
   margin: 6rem auto 0;
   padding: 0 2.5rem;
+
+  & > .notice-list {
+    @include flex(column, start, center);
+    width: 100%;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
 }
