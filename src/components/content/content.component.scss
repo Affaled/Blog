@@ -1,0 +1,43 @@
+@import "../../styles.functions.scss";
+@import "../../styles.variables.scss";
+
+.content {
+  @include flex(column, start, center);
+  max-width: 1240px;
+  width: 100%;
+  margin: 6rem auto 0;
+  padding: 0 2.5rem;
+  height: 100%;
+
+  & > img {
+    max-width: 42rem;
+    min-width: 0;
+    width: 100%;
+    border-radius: 2rem;
+  }
+
+  &__text {
+    @include flex(column, start, start);
+    margin-top: 3rem;
+
+    & > h2 {
+      @include text($title-font-family, 3rem, 400, $main-color);
+    }
+
+    & > p {
+      @include text($text-font-family, 1.25rem, 400, $text-color);
+      max-width: 70%;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+    &__text {
+      & > p {
+        max-width: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
