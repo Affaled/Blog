@@ -13,7 +13,7 @@ export class MainNoticeComponent implements OnInit {
   @Input()
   noticeContent: string = '';
   @Input()
-  Id: number = 0;
+  Id: string | null = '0';
 
   constructor() {}
   ngOnInit(): void {}
