@@ -8,6 +8,10 @@
 
   img {
     height: 13.5rem;
+    min-height: 13.5rem;
+    width: 24rem;
+    min-width: 24rem;
+    object-fit: cover;
     border-radius: 1.5rem;
   }
 
