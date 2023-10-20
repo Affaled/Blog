@@ -12,18 +12,19 @@ export class ContentComponent implements OnInit {
   contentTitle: string = '';
   contentContent: string = '';
 
-  private Id: string | null = '0';
+  private id: number | null = 0;
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit(): void {
     this.route.paramMap.subscribe((value) => {
-      this.Id = value.get('Id');
+      this.id = value.get('Id') ? Number(value.get('Id')) : null;
+
+      this.setValuesToComponent(String(this.id));
     });
   }
 
-  setValuesToComponent(Id: string) {
-    const result = data.filter((article) => article.Id == Id)[0];
-
+  setValuesToComponent(id: string) {
+    const result = data.filter((article) => article.Id == id)[0];
     this.contentPhoto = result.photo;
     this.contentTitle = result.title;
     this.contentContent = result.content;
