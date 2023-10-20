@@ -21,8 +21,7 @@
   }
 
   & > h2 {
-    @include text($title-font-family, 2rem, 300, $main-color);
-    color: $background-color;
+    @include text($title-font-family, 2rem, 400, $main-color);
   }
 
   & > p {
@@ -30,7 +29,6 @@
     width: 65%;
     padding: 0.25rem 0.5rem;
     border-radius: 1rem;
-    color: $text-color;
     background-color: rgba($color: $background-color, $alpha: 0.5);
   }
 }
