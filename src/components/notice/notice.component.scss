@@ -1,0 +1,31 @@
+@import "../../styles.functions.scss";
+@import "../../styles.variables.scss";
+
+.notice {
+  @include flex(row, start, end);
+  width: 100%;
+  gap: 1rem;
+
+  img {
+    height: 13.5rem;
+    border-radius: 1.5rem;
+  }
+
+  &__text {
+    @include flex(column, end, start);
+    height: 13.5rem;
+    width: 50%;
+    padding-bottom: 1rem;
+
+    h2 {
+      @include text($title-font-family, 1.5rem, 400, $main-color);
+      text-transform: capitalize;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      max-height: 4.75rem;
+      overflow: hidden;
+    }
+  }
+}
