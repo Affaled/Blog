@@ -7,38 +7,4 @@
   width: 100%;
   margin: 6rem auto 0;
   padding: 0 2.5rem;
-
-  & > section {
-    @include flex(column, end, start);
-    position: relative;
-    width: 100%;
-    height: 22rem;
-    padding: 1rem 3rem;
-
-    & img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: -1;
-      width: 100%;
-      height: 100%;
-      border-radius: 2rem;
-      object-fit: cover;
-      object-position: center;
-    }
-
-    & > h2 {
-      @include text($title-font-family, 2rem, 300, $main-color);
-      color: $background-color;
-    }
-
-    & > p {
-      @include text($text-font-family, 1rem, 500, $text-color);
-      width: 65%;
-      padding: 0.25rem 0.5rem;
-      border-radius: 1rem;
-      color: $text-color;
-      background-color: rgba($color: $background-color, $alpha: 0.5);
-    }
-  }
 }
